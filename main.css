@@ -1,21 +1,11 @@
-*{
-    background-color: rgb(26, 24, 24);
-    color: rgb(251, 0, 0);
+body{
+    font: normal 10pt arial;
+    padding: 10px;
+    background-color: black;
+    color: white;
 }
 
-body {
-    border: 10px;
-}
-
-.container {
-    box-sizing: border-box;
-    width: 320px;
-    height: 320px;
-}
-
-input, button {
-    border-color: rgba(225, 0, 0, 0.681);
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: auto;
+input {
+    font: normal 10pt arial;
+    width: 100px;
 }
