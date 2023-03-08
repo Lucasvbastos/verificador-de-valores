@@ -1,13 +1,9 @@
-Function verif() {
-    let a1 = document.getElementById('num1')
-    let a2 = document.getElementById('num2')
-    let n1 = Number(a1.value)
-    let n2 = Number(a2.value)
-    let v = n2 > n1
-
-    if v === true
-    res.innerHTML = `O valor de B(<strong>${n2}</strong>) é maior que o valor de A(<strong>${n2}</strong>)`
-
-    else res.innerHTML = `O valor de B(<strong>${n2}</strong>) é maior que o valor de A(<strong>${n2}</strong>)`
-
+function verificar(){
+    let tn1 = document.querySelector(`input#A`)
+    let tn2 = document.querySelector(`input#B`)
+    let res = document.getElementById('res')
+    let n1 = Number(tn1.value)
+    let n2 = Number(tn2.value)
+    var S = n1 + n2
+    res.innerHTML = `O valor de ${n1} + ${n2} igual a <strong>${S}</strong>`
 }
