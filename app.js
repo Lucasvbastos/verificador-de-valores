@@ -1,7 +1,7 @@
 function verificar(){
     let tn1 = document.querySelector(`input#A`)
     let tn2 = document.querySelector(`input#B`)
-    let res = document.getElementById('res')
+    let res = document.querySelector(`div#res`)
     let n1 = Number(tn1.value)
     let n2 = Number(tn2.value)
     var S = n1 + n2
