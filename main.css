@@ -9,3 +9,7 @@ input {
     font: normal 10pt arial;
     width: 100px;
 }
+
+div#res {
+    margin-top: 16px;
+}
