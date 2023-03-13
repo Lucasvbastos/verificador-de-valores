@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificando Némeros</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Verificando se o valor de B é maior que A</h1>
-    <input type="number" id="A" required placeholder="Digite valor de A">
-    <input type="number" id="B" required placeholder="Digite o valor de B">
-    <button value="Verificar" onclick="verificar()">Submeter</button>
-    <div id="res">Resultado</div>
+    <header>
+        <h1>Formulário de Verificação</h1>
+    </header>
+    <div class="container">
+    <form id="Myform" onsubmit="return verif()">
+        <label for="valA">Digite o Valor de A:</label>
+        <input type="number" id="valA" name="valA">
+        <label for="valB">Digite o valor de B:</label>
+        <input type="number" id="valB" name="valB">
+        <button type="submit">Submeter</button>
+    </form>
+    </div>
     <script src="app.js"></script>
 </html>
