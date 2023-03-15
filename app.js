@@ -1,6 +1,8 @@
 function verif() {
-  var valA = document.getElementById("valA").value;
-  var valB = document.getElementById("valB").value;
+  let A = document.getElementById("A");
+  let B = document.getElementById("B");
+  let valA = Number(A.value);
+  let valB = Number(B.value);
   
   if (valB > valA) {
     alert("Parabéns, formulário válido!");
