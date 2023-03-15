@@ -10,14 +10,14 @@
 <body>
     <header>
         <h1>Formulário de Verificação</h1>
+        <p>Este formulário tem por objetivo verificar se o valor de B é maior que o de A.</p>
     </header>
     <div class="container">
     <form id="Myform" onsubmit="return verif()">
-        <label for="valA">Digite o Valor de A:</label>
-        <input type="number" id="valA" name="valA">
-        <label for="valB">Digite o valor de B:</label>
-        <input type="number" id="valB" name="valB">
+        <input type="number" id="A" required placeholder="Digite o valor de A:">
+        <input type="number" id="B" required placeholder="Digite o valor de B:">
         <button type="submit">Submeter</button>
+        <br>
     </form>
     </div>
     <script src="app.js"></script>
