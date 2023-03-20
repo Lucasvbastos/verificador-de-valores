@@ -13,13 +13,14 @@
         <p>Este formulário tem por objetivo verificar se o valor de B é maior que o de A.</p>
     </header>
     <div class="container">
-    <form id="Myform" onsubmit="return verif()">
-        <input type="number" id="A" required placeholder="Digite o valor de A:">
-        <input type="number" id="B" required placeholder="Digite o valor de B:">
-        <button type="submit">Submeter</button>
-        <br>
-        <div id="res">Resultado</div>
-    </form>
+        <form id="form" onsubmit="return verif();">
+            <input type="number" id="A" required placeholder="Digite o valor de A:">
+            <input type="number" id="B" required placeholder="Digite o valor de B:">
+            <p class="error-message">Valor de B deve ser maior que A.</p>
+            <button type="submit">Submeter</button>
+            <br>
+            <p class="success-message"></p>
+        </form>
     </div>
     <script src="app.js"></script>
 </html>
